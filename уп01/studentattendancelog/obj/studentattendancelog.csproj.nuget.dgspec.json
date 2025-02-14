@@ -1,33 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\П-30\\УП01\\уп01\\studentattendancelog\\studentattendancelog.csproj": {}
+    "C:\\yp01\\уп01\\studentattendancelog\\studentattendancelog.csproj": {}
   },
   "projects": {
-    "D:\\П-30\\УП01\\уп01\\studentattendancelog\\studentattendancelog.csproj": {
+    "C:\\yp01\\уп01\\studentattendancelog\\studentattendancelog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\П-30\\УП01\\уп01\\studentattendancelog\\studentattendancelog.csproj",
+        "projectUniqueName": "C:\\yp01\\уп01\\studentattendancelog\\studentattendancelog.csproj",
         "projectName": "studentattendancelog",
-        "projectPath": "D:\\П-30\\УП01\\уп01\\studentattendancelog\\studentattendancelog.csproj",
-        "packagesPath": "C:\\Users\\st50\\.nuget\\packages\\",
-        "outputPath": "D:\\П-30\\УП01\\уп01\\studentattendancelog\\obj\\",
+        "projectPath": "C:\\yp01\\уп01\\studentattendancelog\\studentattendancelog.csproj",
+        "packagesPath": "C:\\Users\\st53\\.nuget\\packages\\",
+        "outputPath": "C:\\yp01\\уп01\\studentattendancelog\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\st50\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\st53\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -38,28 +42,28 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.36, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.36, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.36, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.36, )"
             }
           },
           "imports": [
@@ -81,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
