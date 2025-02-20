@@ -2,10 +2,11 @@
 {
     public class Course
     {
-        public int CourseId { get; set; }
-        public string CourseName { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
         public string Description { get; set; }
-        public List<Group> Groups = new List<Group>();
-        public List<Lesson> Lessons = new List<Lesson>();
+
+        public List<Group> Groups { get; set; }
+    public List<Lesson> Lessons { get; set; }
     }
 }

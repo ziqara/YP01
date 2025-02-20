@@ -2,9 +2,9 @@
 {
     public class Lesson
     {
-        public int LessonId { get; set; }
+        public int Id { get; set; }
         public Course Course { get; set; }
-        public DateTime LessonDateTime { get; set; }
-        public List<Attendance> AttendanceRecords = new List<Attendance>();
+        public DateTime DateTime { get; set; }
+        public List<Attendance> AttendanceRecords { get; set; }
     }
 }
