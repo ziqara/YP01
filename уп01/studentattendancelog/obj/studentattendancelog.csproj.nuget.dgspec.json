@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\П-30\\iup\\уп01\\studentattendancelog\\studentattendancelog.csproj": {}
+    "D:\\УП\\уп01\\studentattendancelog\\studentattendancelog.csproj": {}
   },
   "projects": {
-    "D:\\П-30\\iup\\уп01\\studentattendancelog\\studentattendancelog.csproj": {
+    "D:\\УП\\уп01\\studentattendancelog\\studentattendancelog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\П-30\\iup\\уп01\\studentattendancelog\\studentattendancelog.csproj",
+        "projectUniqueName": "D:\\УП\\уп01\\studentattendancelog\\studentattendancelog.csproj",
         "projectName": "studentattendancelog",
-        "projectPath": "D:\\П-30\\iup\\уп01\\studentattendancelog\\studentattendancelog.csproj",
-        "packagesPath": "C:\\Users\\st50.TPK\\.nuget\\packages\\",
-        "outputPath": "D:\\П-30\\iup\\уп01\\studentattendancelog\\obj\\",
+        "projectPath": "D:\\УП\\уп01\\studentattendancelog\\studentattendancelog.csproj",
+        "packagesPath": "C:\\Users\\st50\\.nuget\\packages\\",
+        "outputPath": "D:\\УП\\уп01\\studentattendancelog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\st50.TPK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\st50\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
