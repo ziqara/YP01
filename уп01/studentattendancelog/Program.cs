@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using studentattendancelog.data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddDbContext<Attendance_log>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("StudentattendancelogDb")));
 
 var app = builder.Build();
 

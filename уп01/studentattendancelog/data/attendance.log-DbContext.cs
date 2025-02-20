@@ -4,9 +4,10 @@ using studentattendancelog.Model;
 
 namespace studentattendancelog.data
 {
-    public class attendance_log : DbContext
+    
+    public class Attendance_log : DbContext
     {
-        public attendance_log(DbContextOptions<attendance_log> options) : base(options)
+        public Attendance_log(DbContextOptions<Attendance_log> options) : base(options)
         {
         }
         public DbSet<Student> Students { get; set; }
